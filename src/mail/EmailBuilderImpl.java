@@ -4,7 +4,7 @@ import java.util.ArrayList;
 import java.util.List;
 import java.util.Objects;
 
-public class EmailBuilderImpl implements EmailBuilder {
+class EmailBuilderImpl implements EmailBuilder {
 
     private String from, subject, body;
     private List<String> to, ccTo;
